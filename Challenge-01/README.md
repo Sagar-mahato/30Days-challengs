@@ -1,7 +1,7 @@
 # Challenge 01: Calculate Total, Average, and Percentage Marks
 
 # Problem Description
-This program reads the marks of five subjects entered by the user, calculates the total marks, average marks, and overall percentage, and displays all three results formatted to two decimal places[span_1](start_span)[span_1](end_span).
+This program reads the marks of five subjects entered by the user, calculates the total marks, average marks, and overall percentage, and displays all three results formatted to two decimal places.
 
 # Program Objectives
 * Practice basic input/output operations using printf() and scanf() in C.
