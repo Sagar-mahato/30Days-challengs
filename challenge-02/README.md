@@ -1,7 +1,7 @@
 # Challenge 02: TripCalc "Plan the Trip. Calculate the Cost"
 
 # Problem Description
-A student is planning a road trip. Write a C program to read the total distance to be travelled (in kilometres), the vehicle's mileage (kilometres per litre), and the current fuel price per litre. Calculate and
+A student is planning a road trip. Write a C program to read the total distance to be travelled (in kilometers), the vehicle's mileage (kilometers per litre), and the current fuel price per litre. Calculate and
 display the amount of fuel required for the trip and the total fuel cost.
 
 # Program Objectives
