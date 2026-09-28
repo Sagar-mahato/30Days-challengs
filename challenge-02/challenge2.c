@@ -13,7 +13,7 @@ int main ()
   scanf("%f", &a);
 
                                                       //doing calculation for fuel required and total fuel cost
-  b=d/m;
+  b=d/m;                                              //a= fuel price,b=fuel required,c= total fuel cost
   c=b*a;
 
                                                      //printing the values of fuel required and total fuel cost
