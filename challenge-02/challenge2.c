@@ -7,9 +7,9 @@ int main ()
                                                       //asking vaules by user of distance, mileage, fuel price 
   printf("ENTER THE DISTANCE (Kilometer):\n");
   scanf("%d", &d);
-  printf("ENTER THE MILEAGE (Kilometer/liter):\n");
+  printf("ENTER THE MILEAGE (Kilometer/litre):\n");
   scanf("%d", &m);
-  printf("ENTER THE FUEL PRICE (Per Liter):\n");
+  printf("ENTER THE FUEL PRICE (Per Litre):\n");
   scanf("%f", &a);
 
                                                       //doing calculation for fuel required and total fuel cost
