@@ -13,7 +13,7 @@ display the amount of fuel required for the trip and the total fuel cost.
 1. fuel requried: distance / mileage.   
 2. total fuel cost: fuel required * fuel price . 
 
-# Alogrithm
+# Algorithm
 1. Start
 2. Read the distance (in km) , mileage (in km/l) and the fuel price.
 3. Calculate the fuel required = distane/mileage.
