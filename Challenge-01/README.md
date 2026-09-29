@@ -18,7 +18,7 @@ This program reads the marks of five subjects entered by the user, calculates th
 3. Percentage: Ratio of total marks obtained to maximum total marks (500) and multiple by 100.
    Percentage = (Total/500) * 100
 
-# Alogrithm
+# Algorithm
 1. Start
 2. Read the marks of the five subjects.
 3. Calculate the total marks.
