@@ -33,11 +33,11 @@ discount_amt = amt * discount;
 amt_after_discount = amt - discount_amt;
 payable_amt = amt_after_discount + charges;
 
-printf("Purchase Amount       : %.2f\n", amt);
-printf("Discount Amount       : %.2f\n", discount_amt);
-printf("Amount After Discount : %.2f\n", amt_after_discount);
-printf("Delivery Charge       : %.d\n", charges);
-printf("Final Payable Amount  : %.2f\n", payable_amt);
+printf("Purchase Amount: %.2f\n", amt);
+printf("Discount Amount: %.2f\n", discount_amt);
+printf("Amount After Discount: %.2f\n", amt_after_discount);
+printf("Delivery Charge: %.d\n", charges);
+printf("Final Payable Amount: %.2f\n", payable_amt);
 
 return 0;
 }
