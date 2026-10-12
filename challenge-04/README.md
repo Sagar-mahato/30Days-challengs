@@ -10,8 +10,8 @@ Display: (a) number of valid expenses, (b) total of valid expenses, (c) count an
 Keep accepting input until 0 is entered. • Negative values must not affect any count or total. • Do not include 0 in calculations. • Classify valid expenses using conditions. • Choose a suitable loop and be ready to explain your choice.
 
 # Algorithm
-1.Start
-2. if while (true):
+ 1.Start
+ 2. if while (true):
    a. Read expense.
    b. IF expense == 0,then exit the loop.
    c. otherwise, if expense > 0 then Increment count and Add the total expense
@@ -20,7 +20,7 @@ Keep accepting input until 0 is entered. • Negative values must not affect any
       ELSE:Increment large count and  Add to get the large total.
    d. ELSE (expense < 0 || expense == 0):
       Print “Invalid input. Please enter a positive amount or 0 to quit."
-3. dispaly    
+      3. dispaly    
    (a) Number of valid expenses.
    (b) Total of valid expenses.
    (c) Count and total for Small, Medium, Large expenses
