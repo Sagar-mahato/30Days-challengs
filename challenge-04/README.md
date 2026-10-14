@@ -1,7 +1,7 @@
 # Challenge 04: LOOPLAB "Repeat with logic. solve with precision."
 
 # Problem Description
-Create a C program called LOOPLAB to analzse daily expenses. Repeatedly read expense amounts until the user enters 0. For each positive amount, classify it using the rules below, update counts and totals, and finally display a summary. Use loops, conditional statements, arithmetic operators, and variables. Do not use arrays, functions, or strings.
+Create a C program called LOOPLAB to analyze daily expenses. Repeatedly read expense amounts until the user enters 0. For each positive amount, classify it using the rules below, update counts and totals, and finally display a summary. Use loops, conditional statements, arithmetic operators, and variables. Do not use arrays, functions, or strings.
 
 # Required Summary
 Display: (a) number of valid expenses, (b) total of valid expenses, (c) count and total for Small, Medium, and Large expenses, and (d) average valid expense. If no valid expenses were entered, display a suitable message instead of dividing by zero.
