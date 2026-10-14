@@ -2,7 +2,7 @@
 int main()
 {
 int type, charges;
-float amt, discount, discount_amt = 0.0, amt_after_discount=0.0, distance, payable_amt = 0.0;
+float amt, discount=0, discount_amt = 0.0, amt_after_discount=0.0, distance, payable_amt = 0.0;
 printf("Enter Customer Type (1 = Student, 2 = Regular Customer): ");
 scanf("%d", &type);
 printf("Enter Purchase Amount : ");
