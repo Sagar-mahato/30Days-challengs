@@ -28,7 +28,7 @@ largetotal+=expense;}
 else{
 printf("Invalid input. Please enter a positive amount or 0 to quit.\n");}
 }
-printf("\nExpense Summary:\n");
+printf("Expense Summary:\n");
 printf("Number of valid expenses: %d\n", count);
 printf("Total of valid expenses: %d\n", overalltotal);
 printf("Small expenses (below 100): Count = %d, Total = %d\n", small, smalltotal);
