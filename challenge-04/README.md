@@ -1,7 +1,7 @@
 # Challenge 04: LOOPLAB "Repeat with logic. solve with precision."
 
 # Problem Description
-Create a C program called LOOPLAB to analyse daily expenses. Repeatedly read expense amounts until the user enters 0. For each positive amount, classify it using the rules below, update counts and totals, and finally display a summary. Use loops, conditional statements, arithmeticoperators, and variables. Do not use arrays, functions, or strings.
+Create a C program called LOOPLAB to analzse daily expenses. Repeatedly read expense amounts until the user enters 0. For each positive amount, classify it using the rules below, update counts and totals, and finally display a summary. Use loops, conditional statements, arithmetic operators, and variables. Do not use arrays, functions, or strings.
 
 # Required Summary
 Display: (a) number of valid expenses, (b) total of valid expenses, (c) count and total for Small, Medium, and Large expenses, and (d) average valid expense. If no valid expenses were entered, display a suitable message instead of dividing by zero.
@@ -12,18 +12,17 @@ Keep accepting input until 0 is entered. • Negative values must not affect any
 # Algorithm
 1. Start
 2. while (true):
-   a. Read expense.
-   b. IF expense == 0,then exit the loop.
-   c. otherwise, if expense > 0 then Increment count and Add the total expense
-      then If expense < 100, Increment small count and Add to get the small totals.
-      ELSE IF expense >= 100 && expense < 500 Increment medium count and Add to get the medium total.
-      ELSE:Increment large count and  Add to get the large total.
-   d. ELSE (expense < 0 || expense == 0):
-      Print “Invalid input. Please enter a positive amount or 0 to quit.
-    dispaly    
-   (a) Number of valid expenses.
-   (b) Total of valid expenses.
-   (c) Count and total for Small, Medium, Large expenses
-   (d) Average valid expense = overallTotal / overallCount
+   * Read expense.
+   * IF expense == 0,then exit the loop.
+   * otherwise, if expense > 0 then Increment count and Add the total expense
+   * then If expense < 100, Increment small count and Add to get the small expenses totals.
+   * ELSE IF expense >= 100 && expense < 500,Increment medium count and Add to get the medium expenses total.
+   * ELSE:Increment large count and  Add to get the large expenses total.
+   * ELSE,Print “Invalid input. Please enter a positive amount or 0 to quit.
+3.  Dispaly summary 
+   * Number of valid expenses.
+   * total of valid expenses.
+   * Count and total for Small, Medium, Large expenses
+   * Average valid expense = overallTotal / overallCount
 4. Stop
    
