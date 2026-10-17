@@ -14,9 +14,11 @@ printf("3. Quadratic equation\n");
 printf("4. Exit\n");
 printf("Enter choice: ");
 scanf("%d", &choice);
-if (choice < 1 || choice > 4) {
+if (choice < 1 || choice > 4)
+{
 printf("Invalid input. Exiting.\n");
-break;}
+break;
+}
 switch (choice)
 {
 case 1:
@@ -26,7 +28,7 @@ float x;
 printf("To solve a linear equation (ax + b = 0)\n");
 printf("Enter value of a and b: ");
 scanf("%d %d", &a, &b);
-if (a != 0){
+if (a != 0) {
 x = (float)(-b) / a;
 printf("The solution of the linear equation is x = %.2f\n", x);}
 else if (a == 0 && b == 0){
