@@ -31,6 +31,6 @@ Create a menu-driven C program that lets a user choose a mathematical operation.
       * if D>0 , root1= -b + sqrt(D)/2*a and root2= -b + sqrt(D)/2*a . display root are real and different , display root1 and root2.
       * if D=0 , root1=root2= -b /2*a . display roots are real and same , display root1.
       * if D<0 , display no real roots exist.
-   4.  if choice=4 , Exit the loop , display exiting the program.
-   5.  Stop 
+   4. if choice=4 , Exit the loop , display exiting the program.
+5. Stop 
 
