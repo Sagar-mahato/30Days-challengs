@@ -16,7 +16,7 @@ Read N (3 ≤ N ≤ 6), then read N × N integer risk scores from 0 to 100. Ask 
 7. Decision using conditions: display CRITICAL if at least one local hotspot exists; otherwise display WARNING if at least N cells meet or exceed T; otherwise display NORMAL.
 
 # Algorithm
-1.Start 
+1. Start 
 2. Input N until a valid value  (3<=N<=6)  is entered.
 3. Input all N × N risk scores, ensuring each score is between 0 and 100.
 4. Input threshold T, ensuring 1 <= T <=100.
