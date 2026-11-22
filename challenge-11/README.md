@@ -8,5 +8,21 @@ The campus is divided into five zones: 1 Academic Block, 2 Hostel, 3 Library, 4 
 
 
 # Algorithm
+1. Start
+2. Input the data for 5 zones and 7 days 
+3. Display the main menu.
+4. Read the user's choice.
+5. If the choice is 1 (Display Water Data):
+ * Display the recorded readings and targets for each zone
+6. If the choice is 2 (Generate Audit Report):
+ * Generate an audit report with totals, averages, peak usage, spikes, and alerts per zone
+7. If the choice is 3 (Rank Zones by Excess):
+ * Show the rankings of each zone by excess water usage
+8. If the choice is 4 (Conservation Actions):
+ * Show recommended conservation actions for each zone
+9. If the choice is 5 (Exit}, exit the program.
+10. Stop
+
+
 
 
